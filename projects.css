@@ -1,0 +1,59 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 210px;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    gap: 54px;
+}
+.project-label{
+    font-size: 100px;
+    font-family: 'Mate';
+}
+.head-of-project{
+    height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 600;
+}
+.para{
+    font-family: 'Mate', serif;
+    font-size: 22px;
+    text-align: center;
+}
+.link{
+    align-self: center;
+    text-decoration: none;
+    padding: 11px;
+    margin: 24px;
+    font-size: 21px;
+    background-color: #5f81cb;
+    color: white;
+    border-radius: 14px;
+    border: 1px solid #5f81cb;
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.link:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transform: translateY(-7px);
+}
+
+#project{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width:443px){
+    .project-label{
+        font-size: 85px;
+    }
+  }

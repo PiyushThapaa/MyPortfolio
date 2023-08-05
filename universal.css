@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Bad+Script&family=Edu+SA+Beginner:wght@500&family=Gruppo&family=Mate&family=Quattrocento+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0000000a;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 -5px 13px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+#details {
+  display: flex;
+  align-items: center;
+}
+#details ul {
+  display: flex;
+  list-style: none;
+}
+#details ul li a {
+  text-decoration: none;
+  margin: 0 24px;
+  font-family: "Gruppo";
+  font-weight: 600;
+  font-size: 20px;
+  color: #03008f;
+  transition-property: all;
+  display: inline-block;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+#details ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.2s;
+}
+#details ul li a:hover::after {
+  width: 100%;
+}
+.dot {
+  display: inline-block;
+  width: 14%;
+  height: 34%;
+  border-radius: 50%;
+  background-color: #5f81cb;
+}
+.name {
+  width: 207px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  margin-left: 13px;
+}
+::selection {
+  color: white;
+  background-color: rgb(132, 132, 227);
+}
+@keyframes load-transition {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.name,
+#details,
+main,
+footer {
+  animation: load-transition 0.7s linear;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 17px 0;
+  font-size: 40px;
+  font-family: "Gruppo";
+  font-weight: bold;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+  gap: 54px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Alegreya";
+}
+.linkedin,
+.github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+}
+.linkedin:hover {
+  cursor: pointer;
+}
+.main {
+  font-family: "Gruppo";
+  font-size: larger;
+}
+.linkedin a {
+  color: rgb(52, 86, 137);
+}
+.github a {
+  color: black;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.topnav .icon {
+  display: none;
+}
+@media only screen and (max-width: 870px) {
+  nav {
+    padding: 0 20px;
+    display: block;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  #details{
+    display: none;
+  }
+  .topnav.responsive {
+    position: fixed;
+  }
+  .topnav .icon {
+    display: block;
+    padding-top: 30px;
+  }
+  .topnav.responsive #details{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .topnav.responsive #details ul{
+    display: block;
+  }
+  .topnav.responsive #details ul span{
+    display: none;
+  }
+  .topnav.responsive #details ul li {
+    padding: 25px;
+    text-align: center;
+  }
+}
+.icon{
+  color: #5f81cb;
+}
