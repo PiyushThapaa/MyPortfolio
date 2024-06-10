@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Piyush's Portfolio</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/universal.css" />
-  <script src="https://kit.fontawesome.com/edc2a42261.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <script src="../js/index.js" defer></script>
+  <script src="../js/universal.js" defer></script>
+  <link rel="stylesheet" href="../css/universal.css">
+  <link rel="stylesheet" href="../css/projects.css">
   <link rel="shortcut icon" href="piyushphoto.jpg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/edc2a42261.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,24 +24,17 @@
     </div>
     <div id="details">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <span>|</span>
-        <li><a href="pages/resume.html">Resume</a></li>
+        <li><a href="resume.html">Resume</a></li>
         <span>|</span>
-        <li><a href="pages/projects.html">Projects</a></li>
+        <li><a href="projects.html">Projects</a></li>
       </ul>
     </div>
   </nav>
   <main>
-    <img src="source/piyushphoto.jpg" alt="MyImage" />
-    <div class="intro">
-      <div class="intro1">Hi, Piyush Here</div>
-      <div class="role"><span>A </span><span id="element"></span></div>
-      <div class="buttons">
-        <a href="source/Piyush Resume.pdf" class="button" target="_blank">Download CV</a>
-        <a href="pages/resume.html" class="button">Resume</a>
-        <a href="pages/projects.html" class="button">Projects</a>
-      </div>
+    <div class="project-label">Projects</div>
+    <div id="project"></div>
     </div>
   </main>
   <center>
@@ -64,14 +59,6 @@
       <div id="copyright">©2023 by Piyush Thapa</div>
     </div>
   </footer>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Passionate', 'Developer', 'Passionate', 'Developer', 'Passionate Developer'],
-      typeSpeed: 50,
-    });
-  </script>
-  <script src="js/universal.js"></script>
-  </body=>
+</body>
 
 </html>

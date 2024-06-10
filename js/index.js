@@ -1,7 +1,12 @@
 const project_info = [
     {
+        name:'Task Manager',
+        description:'A full stack application built with react/nodejs/expressjs/mongodb that can manage tasks.',
+        link: 'https://react-todolist-piyushthapaas-projects.vercel.app/'
+    },
+    {
         name: 'Spotify Clone',
-        description: 'This is a Clone of Spotify which contains my favourite songs which can play, pause, change and automatcally play next music after music ends.',
+        description: 'This is a Clone of Spotify which contains my some songs which can play, pause, change and automatcally play next music after music ends. It is built with pure html css and js',
         link: 'https://piyushthapaa.github.io/SpotifyClone/'
     },
     {
