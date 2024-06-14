@@ -1,7 +1,7 @@
 const project_info = [
     {
         name:'Task Manager',
-        description:'A full stack application built with react/nodejs/expressjs/mongodb that can manage tasks.',
+        description:'A full stack application built with react/nodejs/expressjs/mongodb that can manage tasks.Please wait for atleast 1 to 2 min as its backend server takes time to start working.',
         link: 'https://react-todolist-piyushthapaas-projects.vercel.app/'
     },
     {
