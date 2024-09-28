@@ -1,12 +1,22 @@
 const project_info = [
     {
+        name:'My Wears E-commerce website',
+        description:'A full stack e-commerce application with react/nodejs/expressjs/mongodb. It has features like User Authentication, Cart Feature, Admin Dashboard, and so on.',
+        link: 'https://mywears.vercel.app'
+    },
+    {
+        name:'Rankers League',
+        description:'My first ever hackathon project. A full stack mobile application built with react-native and backend with node.js/express.js/mongodb. ',
+        link: 'https://github.com/PiyushThapaa/Rankers-League'
+    },
+    {
         name:'Task Manager',
-        description:'A full stack application built with react/nodejs/expressjs/mongodb that can manage tasks.Please wait for atleast 1 to 2 min as its backend server takes time to start working.',
+        description:'A full stack application built with react/nodejs/expressjs/mongodb that can manage tasks.Please wait for atleast 1 as its backend server takes time to start working.',
         link: 'https://react-todolist-piyushthapaas-projects.vercel.app/'
     },
     {
         name: 'Spotify Clone',
-        description: 'This is a Clone of Spotify which contains my some songs which can play, pause, change and automatcally play next music after music ends. It is built with pure html css and js',
+        description: 'This is a Clone of Spotify which contains some songs that you can play, pause, change and automatcally play next music after music ends. It is built using pure html css and js',
         link: 'https://piyushthapaa.github.io/SpotifyClone/'
     },
     {
