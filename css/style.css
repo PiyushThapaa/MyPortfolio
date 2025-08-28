@@ -19,13 +19,12 @@ img {
 }
 
 .intro1 {
-  font-size: 64px;
+  font-size: 60px;
   font-family: "Quattrocento Sans";
 }
 
 .role {
   font-size: 32px;
-  text-align: center;
 }
 
 .buttons {
@@ -79,7 +78,7 @@ img {
   }
 
   .intro1 {
-    font-size: 48px;
+    font-size: 43px;
     margin: auto;
   }
 
@@ -90,7 +89,7 @@ img {
   .button {
     margin: auto;
     font-size: 19px;
-    padding: 14px;
+    padding: 9px;
   }
 
   img {

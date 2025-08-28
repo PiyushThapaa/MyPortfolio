@@ -10,38 +10,58 @@ main {
     font-family: "Quattrocento Sans";
     font-size: 18px;
 }
-.title{
+
+.title {
     padding: 12px 39px;
     font-family: "Quattrocento Sans";
     font-size: 26px;
     font-weight: bold;
 }
+
 ul {
-  list-style-type: disc; 
-  list-style-position: inside; 
-  padding-left: 20px; 
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 20px;
 }
 
-.project-img{
+.project-img {
     width: 70%;
     margin-left: 50px;
 }
 
 @media only screen and (max-width:443px) {
-    .project-img{
+    .project-img {
         width: 100%;
         margin: 0;
     }
+
+    .storyboard-img {
+        width: 100% !important;
+    }
 }
 
-.storyboard-img-container{
+.storyboard-img-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 185px;
+    gap: 14px;
     justify-content: center;
 }
 
-.storyboard-img{
-    width: 50%;
-    min-width: 17rem;
+.storyboard-img {
+    width: 36%;
+    min-width: 21rem;
+}
+
+.test-insight-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 18px;
+}
+
+.usability-test-video-1{
+    width: 198px;
+    margin: 18px 0;
 }
