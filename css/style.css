@@ -3,29 +3,35 @@ main {
   justify-content: center;
   align-items: center;
   gap: 70px;
-  padding-top: 135px;
+  margin-bottom: -71px;
 }
+
 img {
   width: 332px;
   border-radius: 50%;
-  padding: 145px 0;
+  padding: 113px 0;
 }
+
 .intro {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .intro1 {
   font-size: 64px;
   font-family: "Quattrocento Sans";
 }
+
 .role {
   font-size: 32px;
   text-align: center;
 }
+
 .buttons {
   display: flex;
 }
+
 .button {
   padding: 19px;
   margin: 24px;
@@ -43,6 +49,7 @@ img {
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .button:hover {
   color: black;
   background-color: white;
@@ -51,10 +58,13 @@ img {
 }
 
 @media only screen and (max-width: 870px) {
-  main{
+  main {
     flex-direction: column;
-    gap: 34px;
+    gap: 0px;
+    padding-top: 105px;
+    margin-bottom: 0;
   }
+
   img {
     order: 2;
     width: 332px;
@@ -62,23 +72,86 @@ img {
     padding: 24px 0;
   }
 }
-@media only screen and (max-width:443px){
-  .intro1{
+
+@media only screen and (max-width:443px) {
+  .title {
+    font-size: 30px !important;
+  }
+
+  .intro1 {
     font-size: 48px;
     margin: auto;
   }
-  .role{
+
+  .role {
     font-size: 25px;
   }
-  .button{
+
+  .button {
     margin: auto;
     font-size: 19px;
     padding: 14px;
   }
-  img{
+
+  img {
     order: 2;
     width: 297px;
     border-radius: 50%;
     padding: 24px 0;
   }
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+
+.project {
+  width: 40%;
+  min-width: 17rem;
+  height: 17rem;
+  text-decoration: none;
+  background-image: url("../source/clothappcover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s ease;
+  display: flex;
+  /* center text easily */
+  align-items: center;
+  justify-content: center;
+}
+
+.project:hover {
+  cursor: pointer;
+  background-color: #5f81cbcc;
+  background-blend-mode: multiply;
+
+  .project-title {
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  }
+
+}
+
+.project-title {
+  color: white;
+  font-size: 22px;
+  margin: 46px;
+  transition: all 0.3s ease;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Quattrocento Sans";
+  font-weight: 500;
 }
