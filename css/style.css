@@ -114,9 +114,9 @@ img {
   min-width: 17rem;
   height: 17rem;
   text-decoration: none;
-  background-image: url("../source/clothappcover.jpg");
+  background-image: url("../source/Thumbnail.png");
   background-size: cover;
-  background-position: center;
+  background-position: right center; 
   background-repeat: no-repeat;
   transition: background 0.3s ease;
   display: flex;
@@ -132,7 +132,6 @@ img {
 
   .project-title {
     display: inline-block;
-    color: white;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
@@ -143,8 +142,8 @@ img {
 }
 
 .project-title {
+  display: none;
   color: white;
-  font-size: 22px;
   margin: 46px;
   transition: all 0.3s ease;
 }
